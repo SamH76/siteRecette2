@@ -1,0 +1,194 @@
+
+
+*{
+    overflow: auto;
+}
+
+body {
+    background-color:#6C829D;
+    font-family: arial;
+}
+
+.categorie{
+    background-color: black;
+    color: white;
+    display: inline-block;
+    padding: 8px 18px;
+    font-size: 17px;
+    margin-bottom: 0px;
+    font-weight: bolder;
+
+
+}
+
+h1{
+    text-align: center;
+}
+
+.carreBlanc{
+    background-color: white;
+    margin: 0px 3% 40px 3%;
+    padding: 10px;
+    box-shadow: 0px 0px 20px 20px rgb(0,0,0, 0.3);
+}
+
+p.description{
+    max-width: 500px;
+    display: inline-block;
+    font-size: 20px;
+}
+
+.centre{
+    text-align: center;
+    width: 100%;
+
+}
+
+div.chevauchement{
+    margin-bottom: -20px;
+}
+
+.ligne{
+    background-color: black;
+    width: 100px;
+    height: 1px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.tableStyle{
+        position: absolute; 
+        bottom: 0px; 
+        width: 100%;
+        background-color:#6C829DB0;
+
+    }
+
+.tableStyle td{
+    text-align: center;
+    font-size: 12px;
+}
+
+.tableStyle th{
+    font-size: 14px;
+    vertical-align: bottom;
+}
+
+    .positionDivTableau{
+        position: relative;
+    }
+
+    .image{
+        display: block;
+        object-fit: cover;
+        min-height: 500px;
+        width: 100%;
+        background-color: grey;
+    }
+
+
+    .colonne h2{
+        text-align: center;
+        margin-top: 10px;
+        text-transform: uppercase;
+        border-bottom: 5px solid #6C829D;
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    .colonne1 p{
+        border: 1px solid lightblue;
+        padding: 10px;
+        font-size: 14px;
+        margin: 4px;
+    }
+
+    .preparation tr{
+        height: 40px;
+    }
+
+    .preparation td{
+        vertical-align: top;
+        font-size: 14 px;
+
+    }
+
+    .preparation td.droite{
+        padding-left: 10px;
+        padding-bottom: 10px;
+    }
+
+   .preparation p.numero{
+        background-color: #6C829D;
+        box-sizing: border-box;
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+        text-align: center;
+        color: white;
+        padding-top: 3px;
+        font-weight: bold;
+        font-size: 14px;
+        margin: 0;
+        
+    }
+
+
+
+    /*responsivity pour ordinateur*/
+    @media only screen and (min-width:768px){
+    .carreBlanc{
+        min-width: 350px;
+        margin: 0px 10% 80px 10%;
+        padding: 30px;
+    }
+
+    .tableStyle td{
+        text-align: center;
+        font-size: 18px;
+    }
+    
+    .tableStyle th{
+        font-size: 20px;
+        vertical-align: bottom;
+    }
+
+    .colonne h2{
+        font-size: 20px;
+    }
+
+    .preparation td.droite{
+        font-size: 16px;
+    }
+
+
+    .colonne{
+        width: 45%;
+
+    }
+
+    .colonne1 p{
+        font-size: 16px;
+    }
+
+    .colonne1{
+        display: inline-block;
+          
+    }
+
+    .colonne2{
+        float: right;
+    }
+
+
+}
+
+@media only screen and (min-width:900px){
+    .carreBlanc{
+        width: 650px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
